@@ -2,7 +2,8 @@ class Agent:
   """Class for declaring Agent Object
   Takes 3 params
   dep : department
-  year and hall currently in.
+  year currently in (1,2,3..)
+  hall currently in 
   """
   def __init__(self, dep, year, hall):
     self.dep = dep
